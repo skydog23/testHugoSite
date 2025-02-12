@@ -1,0 +1,19 @@
+#baseURL="http://localhost:1313/"
+background_color_class = "bg-blue"
+languageCode = 'en-us'
+title = 'The Wild Wonderful World of Organic Geometry'
+theme = 'ananke'
+relativeURLs = true
+canonifyURLs = true
+[markup]
+  [markup.goldmark]
+  [markup.goldmark.renderer]
+    unsafe=true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['$', '$']]
+[params]
+  math = true
