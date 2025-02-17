@@ -13,4 +13,4 @@ theme = 'charlie'
           inline = [['$', '$']]
 [params]
   math = true
-  custom_css = ["custom.css"]
+  
