@@ -18,7 +18,7 @@ blockquote {
     font-style: italic;
 }
 figcaption {
-    font-size: 12px;
+    font-size: 20px;
     font-style: italic;
     text-align: center;
 }
@@ -33,3 +33,26 @@ figcaption {
 .flex-item {
     margin-right: 15px; /* Adjust margin as needed */
 }
+.code-box {
+    background-color: #de0e0e;
+    border: 3px solid #444; /* 1px wide, solid, light gray border */
+  }
+  body {
+    font-family: "Georgia", "Times New Roman", serif;
+  }
+  
+  h1 {
+    font-family: "Helvetica", "Arial", sans-serif;
+  }
+  
+  code {
+    font-family: "Courier New", "Consolas", monospace;
+  }
+  .page-container {
+    display: flex;
+    flex-direction: column; /* Arrange items horizontally */
+    justify-content: center; /* Center horizontally */
+    align-items: flex-start; /* Align to the top (or center vertically if needed) */
+    min-height: 100vh; /* Ensure the container takes up full viewport height (optional) */
+    margin: 0; /* Remove default margins from the body */
+  }

@@ -1,0 +1,99 @@
+/* General blog post styling */
+.blog-post {
+    font-family: 'Georgia', serif; /* Choose your preferred font */
+    line-height: 1.6; /* Improve readability */
+    color: black; /* Dark gray text color */
+    margin: 20px auto; /* Center the content */
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    max-width: 800px;
+}
+  
+  .blog-post h1,
+  .blog-post h2,
+  .blog-post h3 {
+    text-align: left;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .blog-post h1 {
+    font-size: 2em;
+    margin-top: 0; /* Remove top margin for the main title */
+  }
+  
+  .blog-post h2 {
+    font-size: 1.5em;
+  }
+  
+  .blog-post h3 {
+    font-size: 1.2em;
+  }
+  
+  .blog-post p {
+    /*background-color: white;*/
+    /*width: 80%;*/
+    margin-bottom: 15px;
+  }
+  
+  .blog-post a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none;
+  }
+  
+  .blog-post a:hover {
+    text-decoration: underline;
+  }
+  
+  .blog-post img {
+    max-width: 100%; /* Make images responsive */
+    height: auto;
+    display: block; /* Prevent images from affecting text flow */
+    margin: 20px auto; /* Center images */
+  }
+  
+  .blog-post ul,
+  .blog-post ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .blog-post blockquote {
+    padding: 10px 20px;
+    width: 80%;
+    margin: 20px auto;
+    border-left: 5px solid #eee; /* Light gray border */
+    background-color: #f9f9f9; /* Very light gray background */
+    font-style: italic;
+  }
+  
+  .blog-post pre,
+  .blog-post code {
+    font-family: monospace; /* Use a monospace font for code */
+    background-color: #f4f4f4; /* Light gray background for code */
+    padding: 5px 10px;
+    border-radius: 5px;
+    overflow-x: auto; /* Add horizontal scrolling if code is too wide */
+    white-space: pre-wrap; /* Allow code to wrap */
+  }
+  
+  /* Add some spacing below the blog post content */
+  .blog-post + * { /* Select the element immediately following .blog-post */
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive adjustments (example) */
+  @media (max-width: 800px) {
+    .blog-post {
+      padding: 10px;
+    }
+  
+    .blog-post h1 {
+      font-size: 1.5em;
+    }
+  
+    .blog-post h2 {
+      font-size: 1.2em;
+    }
+  }

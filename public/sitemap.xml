@@ -5,9 +5,6 @@
     <loc>//localhost:1313/contact/</loc>
     <lastmod>2025-01-22T11:33:38+01:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/</loc>
-    <lastmod>2025-01-22T11:33:38+01:00</lastmod>
-  </url><url>
     <loc>//localhost:1313/about/</loc>
     <lastmod>2025-01-22T11:31:50+01:00</lastmod>
   </url><url>
@@ -19,6 +16,9 @@
   </url><url>
     <loc>//localhost:1313/posts/2025-14-01/</loc>
     <lastmod>2025-01-14T08:00:49+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2023-01-01T08:00:00-07:00</lastmod>
   </url><url>
     <loc>//localhost:1313/categories/</loc>
   </url><url>

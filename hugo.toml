@@ -1,7 +1,6 @@
 languageCode = 'en-us'
 title = 'The Wild Wonderful World of Organic Geometry'
-theme = 'ananke'
-
+theme = 'charlie'
 [markup]
   [markup.goldmark]
   [markup.goldmark.renderer]
@@ -14,3 +13,4 @@ theme = 'ananke'
           inline = [['$', '$']]
 [params]
   math = true
+  custom_css = ["custom.css"]

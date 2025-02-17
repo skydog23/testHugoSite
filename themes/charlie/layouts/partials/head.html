@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}</title>
+{{ partialCached "head/css.html" . }}
+{{ partialCached "head/js.html" . }}
+<!-- filepath: /Users/gunn/Google Drive/mysite/hugo/pgbook/themes/charlie/layouts/partials/head.html -->
+<link rel="stylesheet" href="{{ "css/custom.css" | relURL }}">
+<link rel="stylesheet" href="{{ "css/blog.css" | relURL }}">
+
+{{ if .Param "math" }}
+{{ partialCached "math.html" . }}
+{{ end }}
+
